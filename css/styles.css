@@ -2,3 +2,31 @@
     float: left;
     padding: 50px;
 }
+
+.foodList {
+    width: 100%;
+    text-align: center;
+}
+
+.kor,
+.china,
+.japan,
+.asian,
+.wes,
+.cafe {
+    display: inline-block
+}
+
+.foodListBtn {
+    border: 0px;
+    background-color: white;
+
+}
+
+.foodListBtn:hover {
+    cursor: pointer;
+}
+
+.foodListImg {
+    border-radius: 100%;
+}
