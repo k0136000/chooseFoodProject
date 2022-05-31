@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAEJEON</title>
+    <link href="../../css/styles.css" rel="stylesheet" />
+
+    <style>
+        a {
+            text-decoration-line: none;
+            color: inherit;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+    <!-- 선택 페이지 -->
+    <div class="take-plan">
+        <!-- 음식 종류 선택 페이지로 이동 -->
+        <!-- 각 지역 마다 버튼 아이디를 다르게 하여 각 버튼 당 이동하는 맛집 페이지를 다르게 하면 될듯 -->
+        <section>
+            <div style="text-align:center">
+                <h2 class="plantext">무엇을 먹을지 확고하다면?</h2>
+            </div>
+            <button class="planBtn" id="goToList">여기를 클릭!</button>
+        </section>
+        <!-- 음식 추천 페이지로 이동 -->
+        <section>
+            <div style="text-align:center">
+                <h2 class="plantext">무엇을 먹을지 아직 못정했다면?</h2>
+            </div>
+            <button class="planBtn" id="goToSug">여기를 클릭!</button>
+        </section>
+        <!-- 음식 열고개 페이지로 이동 -->
+        <section>
+            <div style="text-align:center">
+                <h2 class="plantext">무엇을 먹을지 신박하게 정하고 싶다면?</h2>
+            </div>
+            <button class="planBtn" id="goToTen">여기를 클릭!</button>
+        </section>
+    </div>
+    <script src="../../js/foodPlan.js"></script>
+</body>
+
+
+</html>

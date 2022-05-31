@@ -1,0 +1,242 @@
+h1 {
+    text-align: center;
+}
+
+.mainImg {
+    margin: auto;
+    display: block;
+}
+
+.startText {
+    border: 20px;
+    font-size: 40px;
+}
+
+.suggesImg {
+    margin: auto;
+    display: block;
+    border-radius: 30%;
+    border: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.region-box {
+    float: left;
+    padding: 50px;
+}
+
+.foodList {
+    width: 100%;
+    text-align: center;
+
+}
+
+.plantext {
+    font-size: 60px;
+}
+
+.regionTag,
+.from {
+    font-size: 60px;
+    text-align: center;
+    /*모든 글자를 대문자로*/
+    /* text-transform: uppercase; */
+}
+
+.kor,
+.china,
+.japan,
+.asian,
+.wes,
+.cafe,
+.hot,
+.cold,
+.vs,
+.heavy,
+.light {
+    display: inline-block;
+
+}
+
+.foodListBtn {
+    border: 0px;
+    background-color: white;
+
+}
+
+.foodListBtn:hover {
+    cursor: pointer;
+}
+
+.foodListImg {
+    margin-top: 200px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.foodListImg:hover {
+    cursor: pointer;
+    transform: translateY(3px);
+}
+
+.center {
+    text-align: center;
+}
+
+.imgArrow {
+    width: 30px;
+    height: 30px;
+    border: 0;
+}
+
+.random,
+.goMap {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.goToM {
+    width: 150px;
+    height: 60px;
+    border: 0px;
+    transition: all 0.4s;
+    border-radius: 15%;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.goToM:focus {
+    outline: none;
+    /*버튼이 클릭되었을때 생기는 사각 흔적 사라지게 하는것.*/
+}
+
+.goToM:hover {
+    /*마우스가 버튼에 올라갔을때 하는 행동*/
+    background-color: black;
+    color: white;
+}
+
+/* 랜덤 맛집 리스트 버튼 */
+.goToMap,
+.next {
+    width: 150px;
+    height: 60px;
+    border: 0px;
+    transition: all 0.4s;
+    border-radius: 15%;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.goToMap:focus {
+    outline: none;
+    /*버튼이 클릭되었을때 생기는 사각 흔적 사라지게 하는것.*/
+}
+
+.goToMap:hover {
+    /*마우스가 버튼에 올라갔을때 하는 행동*/
+    background-color: black;
+    color: white;
+}
+
+.next:focus {
+    outline: none;
+    /*버튼이 클릭되었을때 생기는 사각 흔적 사라지게 하는것.*/
+}
+
+.next:hover {
+    /*마우스가 버튼에 올라갔을때 하는 행동*/
+    background-color: black;
+    color: white;
+}
+
+.backBtn,
+.startBtn,
+.planBtn {
+    width: 200px;
+    height: 100px;
+    border: 0px;
+    margin: auto;
+    display: block;
+    transition: all 0.4s;
+    border-radius: 20%;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.backBtn:focus {
+    outline: none;
+    /*버튼이 클릭되었을때 생기는 사각 흔적 사라지게 하는것.*/
+}
+
+.backBtn:hover {
+    /*마우스가 버튼에 올라갔을때 하는 행동*/
+    background-color: black;
+    color: white;
+}
+
+
+.startBtn:focus {
+    outline: none;
+    /*버튼이 클릭되었을때 생기는 사각 흔적 사라지게 하는것.*/
+}
+
+.startBtn:hover {
+    /*마우스가 버튼에 올라갔을때 하는 행동*/
+    background-color: black;
+    color: white;
+}
+
+.planBtn:focus {
+    outline: none;
+    /*버튼이 클릭되었을때 생기는 사각 흔적 사라지게 하는것.*/
+}
+
+.planBtn:hover {
+    /*마우스가 버튼에 올라갔을때 하는 행동*/
+    background-color: black;
+    color: white;
+}
+
+
+.startBox {
+    width: 800px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.startBox1 {
+    width: 800px;
+    margin: auto;
+
+}
+
+.startTitle {
+    width: fit-content;
+    margin: auto;
+    font-size: 50px;
+    padding-bottom: 50px;
+
+}
+
+.startText {
+    text-align: center;
+    font-size: 30px;
+}
+
+.foodTxt,
+.choose-region-text {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.vsImg {
+    width: 200px;
+    height: 200px;
+}

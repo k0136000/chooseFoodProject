@@ -1,0 +1,56 @@
+<!-- 음식 리스트, 음식 종류 선택 페이지 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>음식 리스트 페이지</title>
+    <link href="../../css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+    <p class="regionTag" id="region"></p>
+    <!-- 음식 종류 리스트 버튼 -->
+    <div class="foodList">
+        <section class="kor">
+            <button type="button" id="korBtn" class="foodListBtn"><img class="foodListImg"
+                    src="../../img/Kor.png"></button>
+            <p class="foodTxt">한식</p>
+        </section>
+        <section class="china">
+            <button type="button" id="chiBtn" class="foodListBtn"><img class="foodListImg"
+                    src="../../img/chi.png"></button>
+            <p class="foodTxt">중식</p>
+        </section>
+        <section class="wes">
+            <button type="button" id="wesBtn" class="foodListBtn"><img class="foodListImg"
+                    src="../../img/wes.png"></button>
+            <p class="foodTxt">양식</p>
+        </section>
+        <section class="japan">
+            <button type="button" id="japBtn" class="foodListBtn"><img class="foodListImg"
+                    src="../../img/jap.png"></button>
+            <p class="foodTxt">일식</p>
+        </section>
+        <section class="asian">
+            <button type="button" id="asianBtn" class="foodListBtn"><img class="foodListImg"
+                    src="../../img/asain.png"></button>
+            <p class="foodTxt">아시안</p>
+        </section>
+        <section class="cafe">
+            <button type="button" id="cafeBtn" class="foodListBtn"><img class="foodListImg"
+                    src="../../img/cafe.jpeg"></button>
+            <p class="foodTxt">카페</p>
+        </section>
+    </div>
+
+    <script src="../../js/region.js"></script>
+</body>
+
+</html>

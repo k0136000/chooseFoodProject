@@ -1,0 +1,34 @@
+<!-- 해당 카테고리 음식이 하나 남은 경우 이 페이지로 이동 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>랜덤 음식 추천 페이지</title>
+    <link href="../../../css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+    <div class="startBox">
+        <h1 class="startTitle" id="showTitle">여기는 어떠세요??</h1>
+        <p class="startText" id="showName"></p>
+        <img class="suggesImg" id="suggesImg">
+    </div>
+    <div class="goMap">
+        <button type="button" class="goToM" id="goToM">지도 보기</button>
+    </div>
+    <div class="startBox1">
+        <p class="startText"> 해당 맛집이 마음에 안드시거나 </p>
+        <p class="startText"> 다시하기를 원하신다면 다시하기 버튼을 눌러 주세요 :) </p>
+        <button type="button" id="reBtn" class="backBtn">다시하기</button>
+    </div>
+    <script src="../../../js/show.js"></script>
+</body>
+
+</html>
